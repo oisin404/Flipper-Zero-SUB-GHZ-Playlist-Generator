@@ -1,3 +1,5 @@
+# Simple currency change function
+
 def currecnyChange():
     currecy = input("What currency would you like to exchange? ")
     price = float(input("How much would you like to exchange? "))
