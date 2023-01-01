@@ -7,7 +7,6 @@ def find_files():
         if files.endswith(".sub"):
             return files
 
-
 def write_playlist(files):
     name = str(input("SUB-GHZ Playlist Name: "))
     file_end = ".txt"
