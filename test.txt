@@ -1,3 +1,0 @@
-# test
-sub: /ext/subghz/Doorbells/Another Test File.sub
-sub: /ext/subghz/Doorbells/Test File.sub
