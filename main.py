@@ -6,6 +6,7 @@ def main():
   name = str(input("SUB-GHZ Playlist Name: "))
   file_end = ".txt"
   playlist = open((f"{name}{file_end}"), "wt")
+  playlist.write("# " + name)
   for f in os.listdir(path):
     if f.endswith(".sub"):
       playlist.write(f + "\n")
