@@ -1,0 +1,16 @@
+# Doorbells_Test
+sub: /ext/subghz/Doorbells/Dad_doorbell.sub
+sub: /ext/subghz/Doorbells/Doorbell0.sub
+sub: /ext/subghz/Doorbells/Doorbell1.sub
+sub: /ext/subghz/Doorbells/Doorbell2.sub
+sub: /ext/subghz/Doorbells/Doorbell3.sub
+sub: /ext/subghz/Doorbells/Doorbell4.sub
+sub: /ext/subghz/Doorbells/DoorbellFM.sub
+sub: /ext/subghz/Doorbells/GE_Doorbell_19297.sub
+sub: /ext/subghz/Doorbells/Grandpa_Doorbell.sub
+sub: /ext/subghz/Doorbells/KlikAanKlikUit-Doorbel(NL).sub
+sub: /ext/subghz/Doorbells/My_doorway.sub
+sub: /ext/subghz/Doorbells/ook650_433substack.sub
+sub: /ext/subghz/Doorbells/Sadotech_Doorbell.sub
+sub: /ext/subghz/Doorbells/Sonnette_Maison_Doorbell.sub
+sub: /ext/subghz/Doorbells/Sue_Trevor_Doorbell.sub
