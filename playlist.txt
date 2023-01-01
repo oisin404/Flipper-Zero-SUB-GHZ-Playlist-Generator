@@ -1,0 +1,6 @@
+# Playlist
+sub: ext/subghz/Jamming/Jam_315.00.sub
+sub: ext/subghz/Jamming/Jam_433.42.sub
+sub: ext/subghz/Jamming/Jam_433.92.sub
+sub: ext/subghz/Jamming/Jam_438.90.sub
+sub: ext/subghz/Jamming/Jam_868.35.sub
