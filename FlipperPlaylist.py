@@ -10,6 +10,6 @@ def main():
   playlist.write("# " + name + "\n")
   for f in os.listdir(path):
     if f.endswith(".sub"):
-      playlist.write("sub: /ext/subghz/" +  + f + "\n")
+      playlist.write("sub: /ext/subghz/" + flipper_path + "/" + f + "\n")
 
 main()
