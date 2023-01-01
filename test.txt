@@ -1,2 +1,3 @@
-Another Test File.sub
-Test File.sub
+# test
+sub: /ext/subghz/Another Test File.sub
+sub: /ext/subghz/Test File.sub
