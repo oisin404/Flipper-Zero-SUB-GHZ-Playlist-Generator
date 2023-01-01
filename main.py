@@ -9,6 +9,6 @@ def main():
   playlist.write("# " + name)
   for f in os.listdir(path):
     if f.endswith(".sub"):
-      playlist.write(f + "\n")
+      playlist.write("sub: /ext/subghz/" + f + "\n")
 
 main()
