@@ -8,7 +8,7 @@ def test():
     playlist_file = open((playlist_name + ".txt"), "w")
     playlist_file.write("# " + playlist_name + "\n")
     for roots, dirs, files in os.walk(folder_path, topdown=True):
-        if file.endswith(".sub"):
+        if files.endswith(".sub"):
             file_path = os.path.join(folder_path, files)
             file_path = file_path.replace("\\", "/")
             file_path = file_path.replace("E:", "ext")
@@ -19,4 +19,3 @@ def test():
 
 
 test()
-te(f"sub: {file_path}\n")
