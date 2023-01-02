@@ -2,7 +2,7 @@
 import os
 
 
-def test():
+def windows():
     folder_path = str(input("Enter the path for the folder: "))
     playlist_name = str(input("Enter a name for the playlist: "))
     playlist_file = open((playlist_name + ".txt"), "w")
@@ -18,4 +18,14 @@ def test():
     print("Done!")
 
 
-test()
+def selectOS():
+    os = str(input("Are you using Windows or Linux: "))
+    if os.lower() == "windows":
+        windows()
+    elif os.lower() == "linux":
+        print("Tough because I haven't made it work for that yet.")
+    else:
+        print("Learn to spell before using this.")
+
+
+selectOS()
