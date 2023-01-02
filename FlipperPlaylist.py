@@ -5,7 +5,7 @@ import os
 def windows():
     folder_path = str(input("Enter the path for the folder: "))
     playlist_name = str(input("Enter a name for the playlist: "))
-    playlist_file = open((playlist_name + ".txt"), "w")
+    playlist_file = open(("E:\\subghz\\playlist\\" + playlist_name.lower() + ".txt"), "w")
     playlist_file.write("# " + playlist_name + "\n")
     for root, dirs, files in os.walk(folder_path, topdown=True):
         for file in files:
